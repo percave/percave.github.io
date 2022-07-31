@@ -298,11 +298,11 @@ input[type=submit] {
     justify-content: center;
 }
 
-.text {
+.card .text {
     margin-left: 20px;
 }
 
-.text h1 {
+.card .text h1 {
     font-size: 20px;
     color: #555;
 }
