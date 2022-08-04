@@ -197,9 +197,8 @@ body {
     color: #777;
 }
 
-input[type=submit] {
+button[type=submit] {
     float: right;
-
     display: inline-block;
     outline: 0;
     border: 0;
@@ -212,6 +211,11 @@ input[type=submit] {
     color: white;
     line-height: 26px;
 
+}
+
+button[type=submit]:disabled {
+    background-color: #74acda;
+    cursor: not-allowed;
 }
 
 
@@ -305,4 +309,18 @@ input[type=submit] {
 .card .text h1 {
     font-size: 20px;
     color: #555;
+}
+
+.error-danger {
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.error-success {
+    background-color: #04AA6D;
+    color: white;
+    margin-bottom: 15px;
+    padding: 20px;
 }
